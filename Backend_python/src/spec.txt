@@ -1,0 +1,42 @@
+"""
+# retrieve csutomer:
+
+get_customer() -> int
+get_default_currency(customer_id) -> str
+amount_in(cusotmer_id) -> float
+amount_out(customer_id) -> float
+value_added(customer_id) -> float
+balance(customer_id) -> float
+balance_history(customer_id) -> list[tuple/dict (date, balance)]
+handle_deposit(customer_id, amount, cardnumber, expiry_date, ccv, name) // partially webjs?
+handle_transfer(customer_id, amount, receiver_id, method) // does this need to be handled by web3 js
+handle_withdrawal(customer_id, amount, account_no, sort_code, name) // partially webjs?
+request_money_link(customer_id, amount*) -> str
+transaction history(customer_id) -> list[dict (date, balance, type, receiver_id, reciever_name)]
+current_portfolio(customer_id) -> list[dict (asset, value)]
+reserves() list[dict (asset, required_reserves, actual_reserves)]
+download_proof() -> list[str]? 
+
+for adding a user they login private key encrypted cleint side
+
+
+# retrieve customer balance, retrieve c
+
+# balance, wallet address, email, phone number, customer_id
+"""
+email = "user@test.com"
+
+#user
+"""id, 
+email, 
+hashed_password, 
+wallet_address, 
+balance, 
+amount_in, 
+amount_out, 
+investment_return, 
+amount_in_pct_change, 
+amount_out_pct_change, 
+investment_return_pct_change, 
+balance_pct_change,              balance_history, transactions, default_currency, reserves, portfolio, proof_of_balance
+"""

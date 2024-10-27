@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+$backgroundColor: #BEE7FF;
+$textcolor: #000000;
+$borderLeftColor: #ffffff;
+
+@media screen and (min-width:1400px) {
+  navbar-menu {
+    min-height: 170vh  !important;
+    max-height: 350vh;
+  }
+
+} 
+.navbar-menu {
+  min-height: 170vh;
+  max-height: 350vh;
+  background-color: $backgroundColor;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.15);
+  transition: all 0.5s ease;
+
+}
+
+.burger {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.burger img {
+  padding: 25px 8px 0px 0px;
+  cursor: pointer;
+}
+
+img {
+  width: 50px;
+  padding: 0;
+  // height: 120px;
+  // font-size: 12px;
+}
+
+.navbar__list {
+  list-style-type: none;
+
+}
+
+.navbar__list--bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar__li {
+  display: inline-block;
+  padding: 0px 0px 0px 12px;
+  position: relative;
+  top: 2.5px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  //   line-height: 38px;
+  color: $textcolor;
+  font-family: "Lato";
+  font-weight: 400;
+}
+
+.navbar__li-box:first-child {
+  margin-top: 53px;
+
+}
+
+.navbar__li-box {
+  height: 43px;
+  width: auto;
+  margin-top: 15px;
+  display: flex;
+}
+
+.navbar__li-box:hover {
+  border-left: 7px solid $borderLeftColor;
+  cursor: pointer;
+}
+
+.navbar__li {
+  display: inline;
+}
+
+
+
+
+@media screen and (max-width:1300px) {
+  navbar-menu {
+    min-height: 20vh !important;
+    max-height: 350vh;
+  }
+
+} 
+
+
+@media screen and (max-width:1200px) {
+  .navbar-menu {
+    min-height: 210vh !important;
+  }
+}
+
+@media screen and (max-width:950px) {
+  .navbar-menu {
+    min-height: 320vh !important;
+  }
+}
+
+
+
+
+@media screen and (max-width:600px) {
+  .navbar-menu {
+    min-height: 300vh !important;
+  }
+}
+
+
+@media screen and (max-width:500px) {
+  .navbar-menu {
+    min-height: 305vh !important;
+  }
+}

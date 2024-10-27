@@ -1,0 +1,12 @@
+name,upload,upload_delay,download,download_delay,upload_size,download_size,defer_decryption,runtime,uploaded,downloaded
+upload_bandwidth,10,25,250,25,1024,4096,false,104,107514131,103670751
+upload_bandwidth,10,25,250,25,1024,4096,true,60,52954830,102046482
+upload_bandwidth,25,25,250,25,1024,4096,false,52,107514131,103670751
+upload_bandwidth,25,25,250,25,1024,4096,true,35,52954830,102046482
+upload_bandwidth,50,25,250,25,1024,4096,false,34,107514131,103670751
+upload_bandwidth,50,25,250,25,1024,4096,true,26,52954830,102046482
+upload_bandwidth,100,25,250,25,1024,4096,false,25,107514131,103670751
+upload_bandwidth,100,25,250,25,1024,4096,true,22,52954830,102046482
+upload_bandwidth,250,25,250,25,1024,4096,false,21,107514131,103670751
+upload_bandwidth,250,25,250,25,1024,4096,true,20,52954830,102046482
+
